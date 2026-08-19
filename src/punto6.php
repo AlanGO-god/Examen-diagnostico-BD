@@ -28,7 +28,7 @@ $data = $stmt->fetchAll();
 <body class="container py-4">
     <a href="index.php" class="btn btn-outline-secondary mb-3">&larr; Volver al Menú</a>
     <h2>Análisis de Permanencia Media por Puesto y Departamento</h2>
-    <p class="text-muted">Utilidad: Ayuda a Recursos Humanos a medir la velocidad de rotación o ascenso de puestos clave.</p>
+    <p class="text-muted">Utilidad: ayuda a Recursos Humanos a medir la velocidad de rotación o ascenso de puestos clave.</p>
 
     <div class="row">
         <div class="col-lg-6">

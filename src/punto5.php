@@ -3,7 +3,7 @@ require_once 'conexion.php';
 $limit = isset($_GET['limit']) ? (int)$_GET['limit'] : 10;
 
 $sql = "SELECT 
-            e.emp_no,
+            e.emp_no, 
             CONCAT(e.first_name, ' ', e.last_name) AS empleado,
             MIN(s.salary) AS salario_minimo,
             MAX(s.salary) AS salario_maximo,

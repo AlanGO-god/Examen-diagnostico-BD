@@ -44,7 +44,7 @@ if ($search !== '') {
     
     <form method="GET" class="row g-2 my-3">
         <div class="col-md-5">
-            <input type="text" name="search" class="form-control" placeholder="Buscar por No. de Empleado (ej. 10001) o Nombre" value="<?=$search?>">
+            <input type="text" name="search" class="form-control" placeholder="Buscar por Número de Empleado (ej. 10001) o Nombre" value="<?=$search?>">
         </div>
         <div class="col-auto">
             <button type="submit" class="btn btn-primary">Buscar</button>
